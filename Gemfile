@@ -4,6 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 group :development do
   gem 'sqlite3', '~> 1.3.6'
+  gem 'carrierwave'
 end
 group :production do
   gem 'pg'
